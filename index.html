@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Css Link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+        $(".fa-search").click(function(){
+          $(".searchicon").toggleClass("active");
+          $("input[type='search']").toggleClass("active");
+        })
+      })
+    </script>
+</head>
+<body>
+  <!-- form-control mr-lg-2 class of searchbar -->
+
+        <nav class="navbar navbar-light bg-light">
+            <div class='container wrapper'>
+            <form class="form-inline">
+              <a href=""><img src="#" alt=""><i id='plane' class="fas fa-paper-plane plane"></i></a>
+              <div class='searchbar'>
+                <input type="search" placeholder="    Search">
+                <div class='searchicon'><i class="fas fa-search"></i></div>
+              </div>
+              <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+            </form>
+            <div class="dropdown">
+                <span class="icons">
+                    <a class='' href=""><i class="fas fa-cloud-upload-alt icn"></i></a>
+                    <a class='' href=""><i class="fas fa-bell icn"></i></a>
+                </span>
+                
+                <a class="btn btn-light" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="./images/3.jpg" height="40px" width="40px" alt="" class='id-img'>
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    
+
+      <div class='ids box-container'>
+          <a class='id-name' href=""><img class="imgs" src="./images/1.jpg" width='40px' height='40px' alt=""><p class="text-center para">Shivank</p></a>
+          <a class='id-name' href=""><img class="imgs" src="./images/1.jpg" width='40px' height='40px' alt=""><p class="text-center para">Shivank</p></a>
+          <a class='id-name' href=""><img class="imgs" src="./images/1.jpg" width='40px' height='40px' alt=""><p class="text-center para">Shivank</p></a>
+          <a class='id-name' href=""><img class="imgs" src="./images/1.jpg" width='40px' height='40px' alt=""><p class="text-center para">Shivank</p></a>
+          <a class='id-name' href=""><img class="imgs" src="./images/1.jpg" width='40px' height='40px' alt=""><p class="text-center para">Shivank</p></a>
+          <a class='id-name' href=""><img class="imgs" src="./images/1.jpg" width='40px' height='40px' alt=""><p class="text-center para">Shivank</p></a>
+          <a class='id-name' href=""><img class="imgs" src="./images/1.jpg" width='40px' height='40px' alt=""><p class="text-center para">Shivank</p></a>
+          <a class='id-name' href=""><img class="imgs" src="./images/1.jpg" width='40px' height='40px' alt=""><p class="text-center para">Shivank</p></a>
+          <a class='id-name' href=""><img class="imgs" src="./images/1.jpg" width='40px' height='40px' alt=""><p class="text-center para">Shivank</p></a>
+          <a class='id-name' href=""><img class="imgs" src="./images/1.jpg" width='40px' height='40px' alt=""><p class="text-center para">Shivank</p></a>
+          <a class='id-name' href=""><img class="imgs" src="./images/1.jpg" width='40px' height='40px' alt=""><p class="text-center para">Shivank</p></a>
+          <a class='id-name' href=""><img class="imgs" src="./images/1.jpg" width='40px' height='40px' alt=""><p class="text-center para">Shivank</p></a>
+      </div>
+      <div>
+      <div class='box-container'>
+        <div class="card-deck">
+            <div class="card crd shadow bg-white rounded">
+              <img src="https://cdn.dribbble.com/users/2064121/screenshots/11934046/media/dd7b223af40b02f58a7a4706cc51ef5e.png" height='230px' class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title text-center">Guys Can you help me to get best logo?</h6>
+              </div>
+            </div>
+            <div class="card crd shadow bg-white rounded">
+              <img src="https://image.freepik.com/free-vector/skyscrapers-with-illuminated-windows_23-2147510845.jpg" height='230px;' class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title text-center">Set my new illustration for the heka</h6>
+              </div>
+            </div>
+            <div class="card crd shadow bg-white rounded">
+              <img src="https://image.freepik.com/free-vector/smartphone-with-open-pages-landing-page_52683-22969.jpg" height='230px'class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title text-center">Home Automation project</h6>
+              </div>
+            </div>
+            <div class="card crd shadow bg-white rounded">
+                <img src="https://images.unsplash.com/photo-1560233075-4c1e2007908e?ixlib=rb-1.2.1&auto=format&fit=crop&w=358&q=80" height="230px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title text-center">Yoga Day Special</h6>
+                </div>
+              </div>
+              <div class="card crd shadow bg-white rounded">
+                <img src="https://image.freepik.com/free-vector/new-app-mobile-phones-landing-page_52683-23953.jpg" height="230px" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title text-center">Guys can you help me to get best logo?</h6>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class='box-container'>
+        <div class="card-deck">
+            <div class="card crd shadow bg-white rounded">
+              <img src="https://image.freepik.com/free-vector/login-ui-ux-design-concept-illustration_78200-431.jpg" height="230px" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title text-center">Login Screens</h6>
+              </div>
+            </div>
+            <div class="card crd shadow bg-white rounded">
+              <img src="https://image.freepik.com/free-vector/scrum-board-concept-illustration_114360-1570.jpg" height='230px;' class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title text-center">See my new illustrations for the heka</h6>
+              </div>
+            </div>
+            <div class="card crd shadow bg-white rounded">
+              <img src="https://image.freepik.com/free-vector/people-using-online-apps-set_74855-4457.jpg" height="230px;" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h6 class="card-title text-center">I designed some icons using gradients</h6>
+              </div>
+            </div>
+            <div class="card crd shadow bg-white rounded">
+                <img src="https://image.freepik.com/free-photo/woman-s-hand-holding-up-number-4-against-yellow-background_23-2148188526.jpg" height='230px;' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title text-center">Logo explorations</h6>
+                </div>
+              </div>
+              <div class="card crd shadow bg-white rounded">
+                <img src="https://image.freepik.com/free-vector/flat-design-shopping-online-landing-page-template_23-2148556510.jpg" height='230px;' class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title text-center">Guys can you help me to get best logo?</h6>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <footer>
+        <p>Design is Powered By Webdevmani41</p>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/f3ff0c6b59.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
